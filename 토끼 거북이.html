@@ -3,8 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Blog Page</title>
+    <title>Document</title>
     <link type="text/css" rel="stylesheet" href="mycss.css">
+    <style>
+        img {
+            width: 100px;
+            display: block;
+            position: relative;
+            margin: 10px;
+            animation: myanim 5s infinite;
+        }
+        #img1 {animation-timing-function: ease-out;}
+        #img2 {animation-timing-function: ease-in;}
+        @keyframes myanim {
+            from {left: 0px;}
+            to {left: 500px;}
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -21,25 +36,23 @@
             <li><a href="토끼 거북이.html">토끼 거북이</a></li>
         </ul>
         <figure>
-            <img width="85" height="85" src="2.jpg" alt="고양이"/>
-            <figcaption>고양이</figcaption>
+        
+            <figcaption>토끼 거북이</figcaption>
         </figure>
     </nav>
     <section id="main">
         <article>
-            <h1>고양이는?</h1>
-            <p>고양이는 식육목 고양이과에 속하는 포유류이다. </p>
+            <img id="img1" src="3.png"></div>   
+             <img id="img2" src="4.png"></div>  
         </article>
         <article>
-            <h1>고양이의 종류는?</h1>
-            <p>고양이의 종류는 매우많다. 페르시안, 러시안블루, 먼치킨, 노르웨이숲고양이, 랙돌, 뱅갈, 브리티시쇼트헤어, 샴, 스코티시폴드,
-                스핑크스, 아메리칸쇼트헤어, 아비시니안, 코리안쇼트헤어, 터키시앙고라 등 이외에도 수많은 교배종이 있다. </p>
+            
         </article>
         <article>
-            <h1>집고양이의 기원?</h1>
-            <p>집고양이의 기원은 약 1만년 전 중동 지역에서 스스로 숲속을 나와 사람들이 모여사는 마을에 정착하여 길들여진 아프리카들고양이로 추측된다.</p>
+           
         </article>
     </section>
     <footer>Copyright 위키백과, 나무위키</footer>
+ 
 </body>
 </html>
