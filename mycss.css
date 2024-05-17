@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(242, 245, 216);
+    font-family: Arial, "Trebuchet MS", sans-serif;
+    margin: 0px;
+}
+header {
+    background-color: rgb(238, 223, 187);
+    color: black;
+    margin: 0px;
+    text-align: center;
+    padding: 5px;
+}
+h1 {
+    margin: 0px;
+}
+section {
+    float: right;
+    width: 70%;
+    height: 250px;
+    background-color: rgb(238, 239, 221);
+}
+nav {
+    float: left;
+    width: 30%;
+    height: 250px;
+    background-color: rgb(226, 147, 51);
+}
+footer {
+    background-color: #584420;
+    color: #efe5d0;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 0px 0px 0px;
+    font-size: 90%;
+    clear: both;
+}
