@@ -14,15 +14,15 @@ h1 {
     margin: 0px;
 }
 section {
-    float: right;
+    float: left;
     width: 70%;
-    height: 250px;
+    
     background-color: rgb(238, 239, 221);
 }
 nav {
     float: left;
     width: 30%;
-    height: 250px;
+    
     background-color: rgb(226, 147, 51);
 }
 footer {
