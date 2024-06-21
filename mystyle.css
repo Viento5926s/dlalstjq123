@@ -1,0 +1,79 @@
+.header {
+    margin: 10px auto;
+}
+.side {
+    width: 25%;
+    float: left;
+    
+}
+.aside {
+    width: 23%;
+    height: 750px;
+    float: right;
+    border: solid 1px;
+
+}
+.footer {
+    clear: both;
+}
+.side ul li{
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 5px;
+    margin-right: 20px;
+    border: solid 1px black;
+    list-style: none;
+}
+.side ul li:hover{
+    background-color: aquamarine;
+    color: black;
+}
+.adv {
+    width: 45%;
+    float: left;
+}
+.sub-bg {
+    width: 50%;
+    height: 750px;
+    background: url(아비시니안.jpg) 0 0% no-repeat;
+    background-size: 100%;
+
+    animation: animate_background 30s linear;
+}
+
+.sub-bg h2{
+    color: rgb(253, 253, 253);
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 70px;
+}
+.sub-bg h2 span{
+    display: block;
+    font-size: 20px;
+}
+
+@keyframes animate_background{
+    0% {background-position: 0% 0%;}
+    50% {background-position: 0% 100%;}
+    100% {background-position: 0% 0%;}
+}
+@media screen and (max-width: 768px) {
+    .header, .side, .adv, .aside,.footer {
+        width: 100%;
+    }
+}
+.footer ul {
+    list-style: none;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+.footer ul li {
+    display: inline;
+    text-transform: uppercase;
+    padding: 0 10px;
+    letter-spacing: 10px;
+    margin-top: 20px;
+}
